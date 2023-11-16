@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Board from './components/Board';
+import Board from './components/board';
 import { calculateWinner } from './helpers';
 
-import './styles/root.scss';
+import './styles.scss';
 
 const App = () => {
   const [board, setBoard] = useState(Array(9).fill(null));
